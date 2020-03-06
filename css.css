@@ -1,0 +1,45 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    padding: 20px !important;
+    text-align: center;
+    -webkit-box-shadow: 0px 24px 26px -17px rgba(224,112,224,1) !important;
+    -moz-box-shadow: 0px 24px 26px -17px rgba(224,112,224,1) !important;
+    box-shadow: 0px 24px 26px -17px rgba(224,112,224,1) !important;
+}
+img{
+    width: 100% !important;
+    height:auto;
+}
+ul{
+    list-style:none;
+}
+.tips, ol > li{
+    padding: 0px 15px !important;
+    line-height: 40px !important;
+}
+
+.container{
+    width: 80% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    -webkit-box-shadow: 1px 1px 26px -17px rgba(0,0,0,0.94) !important;
+    -moz-box-shadow: 1px 1px 26px -17px rgba(0,0,0,0.94) !important;
+    box-shadow: 1px 1px 26px -17px rgba(0,0,0,0.94) !important;
+    padding: 0px 15px !important;
+}
+.Ingredients > ul > li{
+    padding-bottom: 10px;
+}
+@media screen and (min-width:822px){ 
+    .flex_one {
+        display: flex;
+
+    }
+    .Ingredients{
+        margin: 0px 20px;
+    }
+}
